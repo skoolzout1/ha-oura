@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Assistant Integrations - Legal</title>
+    <title>Home Assistant Integrations - Legal & Keys</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            max-width: 800px;
+            max-width: 900px;
             margin: 40px auto;
             padding: 20px;
             line-height: 1.6;
             color: #24292f;
+            background-color: #ffffff;
         }
         h1 { color: #0366d6; }
+        h2 { color: #24292f; border-bottom: 1px solid #d0d7de; padding-bottom: 8px; }
         a {
             color: #0366d6;
             text-decoration: none;
@@ -27,7 +29,7 @@
             background-color: #fafafa;
         }
         footer {
-            margin-top: 50px;
+            margin-top: 60px;
             color: #666;
             font-size: 0.9em;
             text-align: center;
@@ -36,21 +38,31 @@
 </head>
 <body>
     <h1>Home Assistant Integrations</h1>
-    <p>This site hosts legal documents for personal, self-hosted Home Assistant integrations (OAuth apps, etc.).</p>
-    
+    <p>This site hosts legal documents and public keys for personal, self-hosted Home Assistant integrations.</p>
+
     <div class="card">
-        <h2><a href="privacy-policy.html">Privacy Policy</a></h2>
-        <p>How data is accessed, stored, and protected for integrations like and others.</p>
+        <h2>Legal Documents</h2>
+        <ul>
+            <li><strong><a href="privacy-policy.html">Privacy Policy</a></strong> — How data is accessed, stored, and protected.</li>
+            <li><strong><a href="terms-of-service.html">Terms of Service</a></strong> — Terms governing these personal integrations.</li>
+        </ul>
     </div>
-    
+
     <div class="card">
-        <h2><a href="terms-of-service.html">Terms of Service</a></h2>
-        <p>Terms governing the use of these personal Home Assistant integrations.</p>
+        <h2>Public Keys</h2>
+        <p>Public keys hosted here (Fleetkey-style):</p>
+        
+        <ul>
+            <!-- Add your keys here after uploading them -->
+            <li><a href=".well-known/appspecific/com.tesla.3p.public-key.pem">Tesla Public Key</a> (example)</li>
+        </ul>
+
+        <p><strong>Base URL:</strong> <code>https://skoolzout1.github.io/ha-integrations/</code></p>
     </div>
 
     <hr>
     <footer>
-        <p>Personal use only • Self-hosted via Home Assistant • No data sharing or commercial use</p>
+        <p>Personal use only • Self-hosted via Home Assistant • No commercial use or data sharing</p>
     </footer>
 </body>
 </html>
